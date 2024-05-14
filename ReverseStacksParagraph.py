@@ -1,18 +1,16 @@
 def reverse_paragraph(paragraph):
-    words = paragraph.split()  # Split the paragraph into words
+    words = paragraph.split()
     stack = []
 
-    # Push each word onto the stack
     for word in words:
         stack.append(word)
 
     reversed_paragraph = ""
 
-    # Pop each word off the stack to construct the reversed paragraph
     while stack:
         reversed_paragraph += stack.pop() + " "
 
-    return reversed_paragraph.strip()  # Remove trailing space
+    return reversed_paragraph.strip()
 
 def main():
     line = ("--------------------------------------------")
