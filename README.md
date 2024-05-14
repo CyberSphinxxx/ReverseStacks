@@ -15,6 +15,6 @@ Run the script in a Python environment. Enter the paragraph when prompted. The s
 ```
 --------------------------------------------
 Enter a paragraph to reverse: Hello, World!
-Reversed paragraph: !dlroW ,olleH
+Reversed paragraph: !World ,Hello
 --------------------------------------------
 ```
